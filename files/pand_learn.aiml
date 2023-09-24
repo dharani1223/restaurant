@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+  <!-- Categories -->
+
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hi! How can I help you?
+    </template>
+  </category>
+
+  <category>
+    <pattern>MENU PLEASE</pattern>
+    <template>
+      What category would you like to see?
+    </template>
+  </category>
+
+  <category>
+    <pattern>STARTERS</pattern>
+    <template>
+      Here are some starters:
+      <ul>
+        <li>Chicken tikka</li>
+        <li>Chicken Manchurian</li>
+        <li>Paneer Manchurian</li>
+        <li>Veg Manchurian</li>
+        <li>Potato 65</li>
+      </ul>
+    </template>
+  </category>
+
+  <category>
+    <pattern>MAIN COURSE</pattern>
+    <template>
+      Here are some main courses:
+      <ul>
+        <li>Paneer biryani</li>
+        <li>Chicken leg biryani</li>
+        <li>Veg fried rice</li>
+        <li>Chicken 65 biryani</li>
+        <li>Chicken fry piece biryani</li>
+      </ul>
+    </template>
+  </category>
+
+</aiml>
